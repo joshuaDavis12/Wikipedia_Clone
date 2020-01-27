@@ -1,0 +1,290 @@
+/* Global */
+
+body {
+    font-size: 16px;
+    margin: 45px;
+}
+
+        section, footer, a {
+            color: #36c;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+small {
+    color: #81878c;
+}
+
+/* ==================== */
+/* Header */
+/* ==================== */
+
+header div {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+    header .wiki-logo img {
+        width: 176px;
+        height: 32px;
+    }
+
+header .wiki-logo-globe {
+    margin-top: 80px;
+}
+
+    header .wiki-logo-globe img {
+        width: 200px;
+        height: 183px;
+    }
+
+/* ==================== */
+/* Main Section */
+/* ==================== */
+
+.main-section .languages {
+    margin-top: -260px;
+}
+
+    .main-section .languages div a {
+            font-weight: 700;
+        }
+
+.main-section .languages .row {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+}
+
+/* Circle Text groups */
+
+.main-section .languages .row div {
+    display: grid;
+    text-align: center;
+}
+
+    .main-section .languages .row div small {
+        margin-top: 5px;
+    }
+
+/* Languages Circle */
+.main-section .languages .row1 #english {
+    margin-left: 200px;
+}
+
+.main-section .languages .row2 #german {
+    margin-left: 300px;
+}
+
+.main-section .languages .row3 #french {
+    margin-left: 315px;
+}
+
+.main-section .languages .row4 #chinese {
+    margin-left: 300px;
+}
+
+.main-section .languages .row5 #polish {
+    margin-left: 200px;
+}
+
+/* Input */
+.main-section .text-input {
+    width: 450px;
+    height: 40px;
+    border: 1px solid #a2a8b0;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+    .main-section .text-input input {
+        border: none;
+        width: 350px;
+        height: 30px;
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .main-section .text-input select {
+        border: none;
+        background-color: white;
+        height: auto;
+        width: 50px;
+        color: #a2a8b0;
+        font-size: 15px;
+    }
+
+    .main-section .text-input button {
+        background-color: #36c;
+        height: auto;
+        width: 50px;
+        border: none;
+    }
+
+        .main-section .text-input button img {
+            height: 20px;
+            width: 20px;
+        }
+
+/* Translate section */
+
+.main-section .trans-section {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+    .main-section .trans-section .line {
+        height: 0;
+        width: 100px;
+        border: 0.5px solid #a2a8b0;
+        margin-top: 16px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .main-section .trans-section .trans-btn {
+        height: 35px;
+        background-color: #f8f9fa;
+        border: 1px solid #a2a8b0;
+        border-radius: 2px;
+        font-size: 15px;
+    }
+
+    .main-section .trans-section .trans-btn small {
+        color: #36c;
+        position: relative;
+        top: -2px;
+    }
+
+    .main-section .trans-section .trans-btn:hover {
+        background-color: #ffffff;
+        cursor: pointer;
+    }
+
+    .main-section .trans-section .trans-btn img {
+        padding-left: 10px; 
+        padding-right: 10px; 
+    }
+
+/* ==================== */
+/* Wiki Section */
+/* ==================== */
+
+.wiki-section {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    border-top: 1px solid #a2a8b0;
+    display: flex;
+    margin-top: 30px;
+}
+
+    .wiki-section .wiki-extra {
+        margin-top: 30px;
+    }
+
+        .wiki-section .wiki-extra {
+            margin-left: 138px;
+            margin-right: 150px;
+        }
+
+    .wiki-section .wiki-extra .wiki-app {
+        background-color: #f8f9fa;
+        margin-top: 30px;
+        height: 170px;
+        width: 330px;
+        text-align: left;
+        padding: 10px;
+        margin-left: -10px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .wiki-section .wiki-extra .wiki-app h5 {
+        color: #54595d;
+        margin-top: 5px;
+    }
+
+    .wiki-section .wiki-extra .wiki-app div {
+        display: flex;
+    }
+
+    .wiki-section .wiki-extra .wiki-app div small {
+        margin-left: 48px;
+        margin-top: -10px;
+    }
+
+    .wiki-section .wiki-extra .wiki-app div ul {
+        display: flex;
+        list-style: none;
+    }
+
+        .wiki-section .row .wiki-option, .wiki-section .wiki-extra .foundation {
+        display: flex;
+        text-align: left;
+        align-items: flex-end;
+    }
+
+    .wiki-section .wiki-extra .wiki-option {
+        align-items: flex-start;
+    }
+
+    .wiki-section .row {
+        display: block;
+    }
+
+    .row1, .row2, .row3, .row4, .row5 {
+        display: flex;
+        margin-top: 40px;
+    }
+
+    .wiki-section .row .wiki-option {
+        width: 400px;
+    }
+
+    .wiki-section .row .wiki-option h3 {
+        margin-bottom: 0px;
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+        .wiki-section .row .wiki-option img, .wiki-section .wiki-extra .wiki-option img {
+            padding-right: 10px;
+        }
+
+/* ==================== */
+/* Footer */
+/* ==================== */
+
+footer {
+    display: flex;
+    margin: 0 auto;
+    width: 1800px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+footer small {
+    display: flex;
+    margin: 0px;
+}
+
+footer ul {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+footer ul li {
+    margin-left: 25px;
+}
